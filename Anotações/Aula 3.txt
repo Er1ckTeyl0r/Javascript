@@ -1,0 +1,41 @@
+Operadores Aritméticos: são usados para fazer cálculo
++ Adição
+-  Subtração
+*  Multiplicação
+/  Divisão
+% É usado para calcular o resto da divisão inteira e não a porcentagem
+** Potenciação. Exemplo 5** = 25
+
+Ordem das expressões
+( )
+**
+* / % se mais de um desses estiverem na mesma expressão o calculo é realizado da esquerda pra direita
+
+var n = 3
+n = n + 4
+
+a variável n deixa de valer 3 
+
+
+var n = 3
+n = n + 4			3+4 = 7
+n = n - 5			7-5=2
+n = n * 4			2*4=8
+n = n / 2			8/2=2
+n = n ** 2			4*4=16
+n = n % 5			16%5=1	
+ 
+Maneira Simplificada
+Se a variavel receber ela mais alguma coisa podemos utilizar a expressão mais igual
+
+Exemplo:
+n = n + 4 Simplificado fica n += 4
+n = n - 5 Simplificado fica n -=5
+
+
+Operador de Incremento
+var n = 10		Simplificado fica : var n = 10
+n = n + 1			n++
+n = 11			n = 11
+
+

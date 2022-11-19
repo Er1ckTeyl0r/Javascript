@@ -1,0 +1,49 @@
+DOM = Document Object Model
+
+Vai dar acesso aos componentes internos do site
+
+Árvore DOM = Árvore Hierárquica
+window
+location = diz a localização
+document = documento atual
+history = de onde veio e pra onde vai
+
+document
+html
+head body
+
+Selecionando 
+
+Por Marca
+Por ID
+Por Nome
+Por Classe
+Por Seletor
+
+Por Marca
+getElementByTagName
+
+pra selecionar o primeiro paragrafo =
+
+window.document.getElementByTagName('p') = vai selecionar todos os paragrafos
+window.document.getElementByTagName('p')[0]
+o numero 0 representa o primeiro paragrafo, o 1 representa o segundo e assim sucessivamente
+
+Innertext pega o texto sem a formatação
+InnerHtml pega o texto com a formatação
+
+Por ID
+getElementByID
+
+Exemplos:
+var a = window.document.getElementByID('div')
+a.style.color = 'yellow'
+
+
+
+Por Name
+getElementsByName // com s no "Elements"
+
+Por Seletor
+querySelector( )
+

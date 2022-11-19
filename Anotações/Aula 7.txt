@@ -1,0 +1,23 @@
+Funções em JavaSript
+São linhas de código que vão ser executadas somente quando um evento ocorrer
+
+Bloco de funções tem que ser nomeados como function
+Exemplo:
+function ação(parametro) {
+
+}
+
+Exemplo:
+<div class="area" onclick="clicar( )">
+interaja...
+</div>
+
+
+Script =
+
+function clicar( ) {
+	var a = window.document.querySelector('area')
+	a.innerText = 'Clicou!'
+
+
+O texto da div muda para "Clicou!"

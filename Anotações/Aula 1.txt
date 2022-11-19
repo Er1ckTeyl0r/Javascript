@@ -1,0 +1,27 @@
+O sinal de "+" serve como concatenação (juntar duas coisas)
+
+o "+" pode servir para soma e concatenação
+number + number = adição
+string + string = concatenação
+
+ Modos de converter uma string para number
+Number.parseInt(n) = Converter para um número inteiro
+Number.Float(n) = Converter para um número com vírgula
+Number(n) = O javascript decide de acordo com o valor que ele recebeu se é int ou float
+
+Coverter número pra string
+String(n)
+n.toString(n)
+
+Template Strings
+'O aluno ${nome} com ${idade} anos tirou a nota ${nota}'
+
+Exemplo:
+var nome = 'Erick Teylor'
+var idade = '16'
+var nota = '10'
+var s = `O aluno ${nome} com ${idade} anos tirou a nota ${nota}
+window.alert(s)
+
+Resultado no navegador:
+O Aluno Erick Teylor com 16 anos tirou a nota 10

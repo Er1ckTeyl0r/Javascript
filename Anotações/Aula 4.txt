@@ -1,0 +1,47 @@
+Relacionais 
+>
+<
+>=
+<=
+==
+!=
+
+5>2 true
+7<4 false
+8>= 8 true
+9<=7 false
+5==5 true
+4!=4
+
+O valor de igual no javascript deve se "=="
+O sinal "!=" quer dizer diferente 
+
+Operadores de Identidade (Igualdade Restrita)
+5 == 5
+5 == '5'
+O sinal de igualdade não testa o tipo
+
+5 === 5 false   3 sinais de igual testa se é identico (mesmo valor e mesmo tipo)
+
+Operadores Lógicos
+! negação
+&& conjunção so é true se as duas forem verdadeiras 
+duas barras horizontais  disjunção basta um ser verdadeiro pra me dar o resultado true "ou"
+
+Primeiro o "não" depois o "e" o depois o "ou"
+
+idade >= 15 && idade <=17 // a idade está entre 15 e 17?
+estado == 'RJ' ││ estado == 'SP' // o estado é RJ ou,  SP?
+salario > 1500 && sexo != 'Masculino'  // o salario é maior que 1500 e é uma mulher?
+
+Operador Ternário
+?: 
+teste?o que vai acontecer se for verdadeiro : o que acontece se for falso
+
+
+var idade = 16
+var r = idade >= 19 ? ' MAIOR' : 'MENOR'
+r = MENOR
+
+
+É a fórmula "SE" do Excel
